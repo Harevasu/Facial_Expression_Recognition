@@ -10,9 +10,9 @@ This code implements real-time Facial Expression Recognition using a pre-trained
    ### ● Gurumurthy S
 ## Pre-Requirements:
 
-  ● Installed Python environment with OpenCV and Keras libraries.
-  ● Trained model files ('facialemotionmodel.json' and 'facialemotionmodel.h5') available.
-  ● Access to a webcam for real-time video input.
+  ● Installed Python environment with OpenCV and Keras libraries.<br>
+  ● Trained model files ('facialemotionmodel.json' and 'facialemotionmodel.h5') available.<br>
+  ● Access to a webcam for real-time video input.<br>
   
 ## Project Overview:
 
@@ -82,7 +82,7 @@ image = cv2.resize(image,(48,48))
 pred = model.predict(img)
 ```
 ● The predicted emotion label is then overlaid on the original frame using OpenCV's putText function.<br>
-● The processed frame with the predicted emotion label is displayed using imshow.<br><br>
+● The processed frame with the predicted emotion label is displayed using imshow.<br>
 ● The loop continues until the user presses the 'c' key.
 ```python
 if cv2.waitKey(1) & 0xFF==ord("c"):
