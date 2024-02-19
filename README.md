@@ -1,6 +1,7 @@
 # Facial_Expression_Recognition
 
 ## Description :
+
     This code implements real-time Facial Expression Recognition using a pre-trained convolutional neural network (CNN). It utilizes OpenCV for face detection, extracts facial features, and feeds them into the CNN model to predict emotions such as anger, disgust, fear, happiness, neutrality, sadness, and surprise. The predicted emotion labels are overlaid on the webcam feed, providing live feedback on detected emotions.
 
 ## Team Members:
