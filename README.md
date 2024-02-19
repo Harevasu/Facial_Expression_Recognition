@@ -90,7 +90,6 @@ if cv2.waitKey(1) & 0xFF==ord("c"):
 ```
 Overall, this script continuously captures video frames from the webcam, detects faces in each frame, predicts the emotion associated with each detected face using the pre-trained CNN model, and overlays the predicted emotion label on the video feed in real-time.<br>
 
-Overall, this script continuously captures video frames from the webcam, detects faces in each frame, predicts the emotion associated with each detected face using the pre-trained CNN model, and overlays the predicted emotion label on the video feed in real-time.
 
 
 
